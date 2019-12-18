@@ -1,0 +1,122 @@
+.wrapper {
+    /*background-color: darkslateblue;*/
+    max-width: 792px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 16pt;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* NAME/CONTACT AREA */
+
+header {
+    /*background-color: palevioletred;*/
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+header .name {
+    /*background-color: firebrick;*/
+    float: left;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 42pt;
+    font-weight: bold;
+    margin: 0 auto;
+    height: 70px;
+}
+
+header .contact {
+    /*background-color: darkgoldenrod;*/
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+    position: relative;
+    float: right;
+    overflow: hidden;
+    height: 60px;
+    padding-top: 10px;
+}
+
+/* INFO AREA */
+
+main {
+    /*background-color: aquamarine;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: flex-start;
+    width: 100%;
+    min-height: 900px;
+    margin: 0 auto;
+}
+
+
+.secret-middle { /* This is to put between divs that have the possibility of flexing - it's basically a way to create a temporary margin that only appears when they're side-by-side */
+    width: 20px;
+}
+
+.section {
+    /*background-color: darkseagreen;*/
+    width: 350px;
+    position: relative;
+    border-left: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.section .title {
+    /*background-color: darkcyan;*/
+    width: 70%;
+    height: 40px;
+    position: relative;
+    border-bottom: 1px solid black;
+    margin-top: -12px;
+}
+
+.section .title h2 {
+    padding: 0px 15px 15px 15px
+}
+
+.section .description {
+    /*background-color: cornflowerblue;*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+    padding: 15px 5px 10px 15px;
+}
+
+.section .description .long {
+    color: #a59fa0;
+    font-weight: lighter;
+    margin-top: 7px;
+}
+
+ul {
+    margin: 0;
+}
+
+/* THANK YOU AREA */
+
+footer {
+    /*background-color: cadetblue;*/
+    height: 10%;
+}
+
+footer h2 {
+    text-align: right;
+    margin-right: 40px;
+    font-size: 14pt;
+}
